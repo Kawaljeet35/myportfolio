@@ -1,3 +1,17 @@
+#projects {
+  position: relative;
+  height: 100vh;
+}
+
+#tempimage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%; /* Optional: Ensure the image doesn't exceed its container */
+  max-height: 100%; /* Optional: Ensure the image doesn't exceed its container */
+}
+
 body{
     margin: 0; 
     padding: 0; 
