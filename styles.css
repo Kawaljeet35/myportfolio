@@ -1,0 +1,147 @@
+body{
+    margin: 0; 
+    padding: 0; 
+}
+
+html {
+    margin: 0; 
+    padding: 0; 
+    background-color: rgb(42,42,42);
+}
+
+.navbar-container{
+    background-color: rgb(36,36,36);
+    border: 2px solid black;
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 5px 10px; 
+    width: 100%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding-left: 5px;
+    color: orange;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 15px;
+    color:white;
+    font-size: 1.7rem;
+    padding: 12px;
+    border: 1px solid transparent;
+}
+
+a:hover {
+    background-color: orange; 
+}
+
+#intro{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align:center;
+    margin-top:15%;
+    color:white;
+  }
+  
+  .tcolor{
+    color:orange;
+  }
+
+.buttonContainer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .btn{
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #3d06f3;
+    color: #ffffff;
+  }
+
+  h2{
+    margin-top: 11%;
+    margin-bottom: 0px;
+    color: orange;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:1.5rem;
+    color:white;
+  }
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: white;
+  font-size: 2.3rem;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.images {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.images img {
+  height: 90px;
+  width: 90px;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;
+  margin-right: 20px;
+}
+
+.two {
+  height:75px;
+}
+
+#about-me {
+  scroll-margin-top: 60px; 
+}
+
+#my-skills {
+  scroll-margin-top: 75px; 
+}
