@@ -1,6 +1,6 @@
 function redirectToCV() {
   window.open(
-      'https://docs.google.com/document/d/1b05hDwsm1Blh-QHed3fhYbAJ_q4RmlqIPQ_za3rYsJw/edit?usp=sharing',
+      'https://docs.google.com/document/d/1c4DPIxqk-Uu11-BI7y-btwR-96EhV9QqWVqyPfMhzWA/edit?usp=sharing',
       '_blank'
   );
 }
