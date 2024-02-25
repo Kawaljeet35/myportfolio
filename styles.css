@@ -197,7 +197,7 @@ h3{
   scroll-margin-top: 75px;
 }
 
-/* .contact-cards{
+.contact-cards{
   display: flex;
   flex-direction: column;
   width:80%;
@@ -206,7 +206,7 @@ h3{
 }
 
 .contact-card{
-  width:100%;
+  width:60%;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -215,5 +215,5 @@ h3{
 
 .logos{
   width:12%;
-} */
+}
 
